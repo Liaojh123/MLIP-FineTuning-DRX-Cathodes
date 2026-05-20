@@ -14,7 +14,6 @@ evaluation on disordered rocksalt (DRX) cathode materials.
 data/       Compact test dataset archive
 examples/   Example LMTO structures in VASP format
 models/     Pretrained and fine-tuned SevenNet checkpoints
-docs/       Data availability notes
 ```
 
 ## Data availability
@@ -24,8 +23,7 @@ The complete LMTO training and testing datasets are hosted on Zenodo:
 https://zenodo.org/records/19179419
 
 The local `data/` directory contains a compact archive for repository-level
-testing and inspection. See `data/README.md` and `docs/data-availability.md`
-for details and manuscript consistency checks.
+testing and inspection. See `data/README.md` for details.
 
 ## Models
 
