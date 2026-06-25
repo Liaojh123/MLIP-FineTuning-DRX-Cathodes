@@ -9,6 +9,8 @@ __pycache__/
 
 # Reproduction notebook outputs
 outputs/
+cemc_percolation_Li1p2Mn0p4Ti0p4O2/
+examples/cemc_percolation_Li1p2Mn0p4Ti0p4O2/
 
 # C extensions
 *.so
