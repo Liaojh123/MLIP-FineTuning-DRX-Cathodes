@@ -4,9 +4,10 @@ This repository supports the manuscript "Dual Control of Percolation and Site
 Energy Distribution for Optimizing Li+ Transport in Disordered Rocksalt
 Cathodes".
 
-It contains example LMTO structures, SevenNet checkpoints, and a compact test
-dataset used for machine-learned interatomic potential (MLIP) fine-tuning and
-evaluation on disordered rocksalt (DRX) cathode materials.
+It contains example LMTO structures, SevenNet checkpoints, a cluster-expansion
+model, and a compact test dataset used for machine-learned interatomic
+potential (MLIP) fine-tuning and evaluation on disordered rocksalt (DRX)
+cathode materials.
 
 ## Repository layout
 
@@ -31,6 +32,7 @@ The `models/` directory includes:
 
 - `pretrained_checkpoint_sevennet.pth`
 - `finetuned_checkpoint_sevennet.pth`
+- `Li-Mn-Ti-O_clustre_expansion_model.mson`
 
 See `models/README.md` for intended use and versioning notes.
 
@@ -39,6 +41,11 @@ See `models/README.md` for intended use and versioning notes.
 The `examples/` directory contains representative LMTO structures generated at
 100 K, 1000 K, 10000 K, and 100000 K. Each temperature directory contains five
 `CEMC_*.vasp` structures.
+
+The notebook
+`examples/reproduce_cemc_percolation_Li1p2Mn0p4Ti0p4O2.ipynb` provides an
+end-to-end example for generating 100 CEMC structures at each temperature and
+calculating the percolating Li fraction for the Li1.2Mn0.4Ti0.4O2 composition.
 
 ## License
 
