@@ -43,11 +43,10 @@ The `examples/` directory contains representative LMTO structures generated at
 `CEMC_*.vasp` structures.
 
 The notebook
-`examples/reproduce_cemc_percolation_Li1p2Mn0p4Ti0p4O2.ipynb` provides an
-end-to-end example for generating CEMC structures and calculating the
-percolating Li fraction for the Li1.2Mn0.4Ti0.4O2 composition. It defaults to
-five structures per temperature and can be changed to 100 for manuscript-scale
-statistics.
+`examples/example.ipynb` provides an end-to-end example for generating CEMC
+structures and calculating the percolating Li fraction for the
+Li1.2Mn0.4Ti0.4O2 composition. It defaults to five structures per temperature
+and can be changed to 100 for manuscript-scale statistics.
 
 ## License
 
